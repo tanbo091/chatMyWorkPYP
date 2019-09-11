@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- state_pressed == true 的时候，代表按下，背景给半透明 -->
+    <item android:drawable="@color/alpha_two_third" android:state_pressed="true" />
+
+    <!-- 默认的背景是透明  -->
+    <item android:drawable="@color/transparent" />
+
+</selector>
